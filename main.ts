@@ -1,3 +1,4 @@
+// tiny-stack-vm: a correct interpreter for make.fun's tiny stack ISA v1.
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 const M = new Int8Array(256).fill(-1), U = new Int8Array(256), V = new Int8Array(256);
